@@ -60,7 +60,38 @@ Weighing Machines </br>
 ## CIRCUIT DIAGRAM
 
 ## PROGRAM
+```
+NAME: Jagadeesh.A
+REG NO: 24010183
+ ```
+```
+const int buttonPin = 2;
+     //
+ const int ledPin =  13;      
+ the number of the pushbutton pin 
+// the number of the LED pin 
+int buttonState = 0;       
+  // variable for reading the pushbutton status 
+void setup() { 
+pinMode(ledPin, OUTPUT); 
+pinMode(buttonPin, INPUT); 
+} 
+void loop() { 
+buttonState = digitalRead(buttonPin); 
+if (buttonState == HIGH) { 
+digitalWrite(ledPin, HIGH); 
+} else { 
+digitalWrite(ledPin, LOW); 
+} 
+} 
+ ```
 
 ## OUTPUT
 
+![Screenshot (34)](https://github.com/user-attachments/assets/c1566f5e-ef74-4e6d-b21f-737ccc9ee48e)
+
+
+
 ## RESULT
+```design and implement a system for LED control using an Arduino microcontroller and a push button.```
+
