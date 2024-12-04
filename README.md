@@ -89,6 +89,9 @@ digitalWrite(ledPin, LOW);
 ## OUTPUT
 
 ![Screenshot (34)](https://github.com/user-attachments/assets/c1566f5e-ef74-4e6d-b21f-737ccc9ee48e)
+![Screenshot (33)](https://github.com/user-attachments/assets/050325d7-ae38-46d8-9613-cf3deceb51b7)
+
+
 
 
 
